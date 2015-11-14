@@ -42,7 +42,13 @@ GestureDetector.OnDoubleTapListener{
     }
 
     //////////////////////Start Gestures ////////////////////
+//////HEAD
    /// I have make a modification
+//////
+
+	//Left some extra comments (Xinlin)
+///// refs/remotes/origin/master
+    ////i also have some change xin xinxin
     @Override
     public boolean onSingleTapConfirmed(MotionEvent e) {
         responseMsg.setText("onSingleTapConfirmed");
