@@ -42,7 +42,7 @@ GestureDetector.OnDoubleTapListener{
     }
 
     //////////////////////Start Gestures ////////////////////
-
+   /// I have make a modification
     @Override
     public boolean onSingleTapConfirmed(MotionEvent e) {
         responseMsg.setText("onSingleTapConfirmed");
@@ -51,19 +51,19 @@ GestureDetector.OnDoubleTapListener{
 
     @Override
     public boolean onDoubleTap(MotionEvent e) {
-        responseMsg.setText("onDoubleTap");
+        responseMsg.setText("onDoubleTap_xin");
         return true;
     }
 
     @Override
     public boolean onDoubleTapEvent(MotionEvent e) {
-        responseMsg.setText("onDoubleTapEvent");
+        responseMsg.setText("onDoubleTapEvent_xin");
         return true;
     }
 
     @Override
     public boolean onDown(MotionEvent e) {
-        responseMsg.setText("onDown");
+        responseMsg.setText("onDown_xin");
         return true;
     }
 
